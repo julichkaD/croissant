@@ -4,21 +4,21 @@ body {
 .container {
   margin: 0 auto;
   max-width: 70%;
+  min-height: 700px;
   height: 60%;
-  border: 1px solid rgb(116, 24, 24);
+  border: 1px solid rgba(116, 24, 24, 0.2);
   border-radius: 10px;
   padding: 20px;
   margin-top: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 h1,
-h2
- {
+h2 {
   text-align: center;
   margin-top: 0%;
   color: rgb(116, 24, 24);
+  font-weight: 500;
 }
-
 
 h1 {
   font-size: 45px;
@@ -33,7 +33,7 @@ p {
   justify-content: center;
 }
 a {
-  padding: 20px;
+  padding: 15px;
   color: green;
   font-size: 20px;
 }
@@ -45,20 +45,31 @@ img {
   height: 200px;
   display: block;
   margin: 0 auto;
-  border: 5px solid rgb(141, 61, 61);
+  border: 4px solid rgb(141, 61, 61);
   border-radius: 5px;
 }
 span {
   color: rgb(116, 24, 24);
   font-size: larger;
+  font-weight: 600;
 }
 /* recipe */
-.recipe{
-    border: none;
-    margin-bottom: 30px;
+.recipe {
+  border: none;
+  margin-bottom: 40px;
 }
-ul{
-  line-height: 1.3;
+ul {
+    margin-top: 80px;
+  line-height: 1.4;
   font-size: 20px;
-  
+}
+/* contact us*/
+
+.contact {
+  margin-top: 80px;
+  width: 500px;
+  height: auto;
+}
+.info {
+  margin: 70px 20px;
 }
